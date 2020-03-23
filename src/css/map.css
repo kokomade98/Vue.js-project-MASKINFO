@@ -1,0 +1,129 @@
+.daumMap {
+  box-shadow: 0px 5px 10px rgb(160, 159, 159);
+  max-width: none;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.markInfo {
+  background-color: white;
+  position: relative;
+  left: -3px;
+  top: -65px;
+  padding: 40px 10px 5px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px rgba(105, 105, 105, 0.521);
+  font-family: 'Nanum Gothic', sans-serif;
+  z-index: 1000000000000;
+}
+
+.markInfo:after {
+  z-index: 900;
+  position: absolute;
+  left: 50%;
+  bottom: -12px;
+  content: '';
+  margin-left: -12px;
+  width: 22px;
+  height: 12px;
+  opacity: 0.6;
+  background: url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png');
+}
+
+.markInfo div:nth-child(n + 1) {
+  margin-bottom: 0.5rem;
+}
+
+.pharmacy_name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 8px 15px;
+  border-radius: 10px 10px 0px 0px;
+  background: rgba(25, 25, 211, 0.726);
+  color: white;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* 검색 CSS */
+.searchLocation {
+  min-width: 310px !important;
+  position: absolute;
+  width: 80%;
+  top: 60px;
+  left: 9%;
+  z-index: 100000;
+  padding: 10px 20px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.searchBox {
+  padding: 5px 20px;
+  border: none;
+  width: 80%;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.searchBox:focus {
+  outline: none;
+}
+
+.searchLocation img {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  width: 40px;
+  cursor: pointer;
+}
+
+/* info CSS */
+.info {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  z-index: 100000000000;
+  background-color: rgba(0, 0, 0, 0.801);
+  padding: 3px 6px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  font-family: 'Jua', sans-serif;
+}
+
+.maskInfo {
+  position: absolute;
+  bottom: 28px;
+  right: 5px;
+  z-index: 100000000000;
+  background-color: rgba(3, 3, 3, 0.801);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: 'Jua', sans-serif;
+}
+
+.maskInfo li:nth-child(n + 1) {
+  margin-bottom: 0.3em;
+}
+
+.maskInfo img {
+  width: 20px;
+  position: relative;
+  left: -8px;
+  top: 5px;
+}
+
+
