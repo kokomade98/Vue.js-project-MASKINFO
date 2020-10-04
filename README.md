@@ -7,4 +7,4 @@ url : https://maskinfo.co.kr
 
 ( ※ 마스크 재고 공공 API 정부 지원 종료와 동시에 마스크 재고 안내 서비스도 종료 되었음을 알립니다. )
 
-<img src="https://find-mask.s3.ap-northeast-2.amazonaws.com/img/ezgif.com-gif-maker.gif" width="100%"></img>
+<img src="/_web.gif" width="400px" />
